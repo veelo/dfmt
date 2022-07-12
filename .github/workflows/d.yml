@@ -31,4 +31,4 @@ jobs:
         # See https://dub.pm/package-format-json.html#configurations
         dub test --compiler=$DC
         # Run tests
-        cd test && rdmd test
+        cd tests && rdmd test
